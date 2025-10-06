@@ -5,11 +5,16 @@
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[3.2.1]",
+    "UiPath.GSuite.Activities": "[3.4.10]",
+    "UiPath.IntegrationService.Activities": "[1.18.0]",
     "UiPath.Mail.Activities": "[2.4.10]",
     "UiPath.MicrosoftOffice365.Activities": "[3.4.10]",
+    "UiPath.MLServices.Activities": "[2.0.4]",
+    "UiPath.Persistence.Activities": "[1.7.2]",
     "UiPath.System.Activities": "[25.10.0]",
     "UiPath.UIAutomation.Activities": "[25.10.16]",
-    "UiPath.UIAutomation.Activities.Design.RecoveryPanel": "[24.12.5-preview]"
+    "UiPath.UIAutomation.Activities.Design.RecoveryPanel": "[24.12.5-preview]",
+    "UiPath.WebAPI.Activities": "[2.3.0]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -38,7 +43,6 @@
     "projectProfile": "Developement",
     "outputType": "Process",
     "libraryOptions": {
-      "includeOriginalXaml": false,
       "privateWorkflows": []
     },
     "processOptions": {
